@@ -1,7 +1,7 @@
 ---
 declared-services:
   my-tone-analyzer-service:
-    label: tone_analyzer
+    label: Check Your Tone
     plan: lite
 applications:
 - services:
