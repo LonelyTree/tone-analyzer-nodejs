@@ -28,6 +28,7 @@
             <a class="base--a" href="https://cloud.ibm.com/docs/services/tone-analyzer/index.html#about" target="new">
               <$= __( 'header-learn-more') $>
             </a>.</p>
+        <!--
         <input role="radio" class="base--radio input--radio" type="radio" id="input-tweets" name="rb" value="tweets" checked="true">
         <label class="base--inline-label input--radio-label" for="input-tweets"><$= __('radio-input-tweets') $></label>
         <input role="radio" class="base--radio input--radio" type="radio" id="input-online-review" name="rb" value="review">
@@ -43,6 +44,7 @@
             <a class="base--a" href="http://customer-engagement-demo.ng.bluemix.net" target="new">
               <$= __( 'input-description-customer-engagement-endpoint') $>
             </a>.</p>
+        COMMENTED OUT FOR FUTURE POSSIBLE USE-->
         <hr class="base--hr input--hr">
         <div class="panel">
           <textarea class="base--textarea input--textarea" rows="7"></textarea>
@@ -70,15 +72,17 @@
       </div>
 
       <div class="output">
-        <h2 class="base--h2"><$= __('header-output') $></h2>
+        <!--
+          <h2 class="base--h2"><$= __('header-output') $></h2>
         <p class="base--p output--document-description">
           <$= __( 'output-description') $>
         </p>
         <p class="base--p output--document-description">
-          <$= __( 'output-description-interpret') $>
+          <$= __( 'output-description-interpret') $> 
             <a class="base--a" target="_blank" href="https://cloud.ibm.com/docs/services/tone-analyzer/using-tone.html#using-the-general-purpose-endpoint">
-              <$= __( 'output-description-understand-score') $>
+            <$= __( 'output-description-understand-score') $> 
             </a>.</p>
+        COMMENTED OUT FOR FUTURE POSSIBLE USE-->
         <h3 class="base--h3 output--document-title"><$= __('header-document') $></h3>
 
         <div class="summary--row">
@@ -172,6 +176,7 @@
       </div>
     </article>
   </div>
+  <!--
   <div class="_demo--banner bottom-banner ">
 
     <div class="footer-banner">
@@ -190,7 +195,7 @@
       </div>
     </div>
   </div>
-
+          COMMENTED OUT FOR FUTURE POSSIBLE USE-->
   <script type="text/html" id="emotionBarGraphTemplate">
     <% _.each(items, function(item, key, list) { %>
       <% if (item.label == 'No Tone') { %>
